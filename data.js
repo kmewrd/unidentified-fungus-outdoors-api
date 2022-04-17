@@ -49,7 +49,7 @@ const fungi = [
   {
     "id": 6,
     "name": "Porcini",
-    "regions": ["Pacific"],
+    "regions": ["Pacific", "Rocky Mountains"],
     "description": "Boletus edulis is a basidiomycete fungus, and the type species of the genus Boletus. Widely distributed in the Northern Hemisphere across Europe, Asia, and North America, it does not occur naturally in the Southern Hemisphere, although it has been introduced to southern Africa, Australia, New Zealand, and Brazil. Several closely related European mushrooms formerly thought to be varieties or forms of B. edulis have been shown using molecular phylogenetic analysis to be distinct species, and others previously classed as separate species are conspecific with this species. The western North American species commonly known as the California king bolete (Boletus edulis var. grandedulis) is a large, darker-coloured variant first formally identified in 2007.",
     "scientificName": "Boletus edulis",
     "characteristics": [],
@@ -149,10 +149,118 @@ const fungi = [
     "id": 17,
     "name": "Yellow Patches",
     "regions": ["Northeast"],
-    "description": "Amanita flavoconia, commonly known as yellow patches, yellow wart, orange amanita, yellow-dust amanita or the American yellow dust amanita,[2] is a species of mushroom in the family Amanitaceae. It has an orangish-yellow cap with yellowish-orange patches or warts, a yellowish-orange annulus, and a white to orange stem. Common and widespread throughout eastern North America, Amanita flavoconia grows on the ground in broad-leaved and mixed forests, especially in mycorrhizal association with hemlock.",
+    "description": "Amanita flavoconia, commonly known as yellow patches, yellow wart, orange amanita, yellow-dust amanita or the American yellow dust amanita, is a species of mushroom in the family Amanitaceae. It has an orangish-yellow cap with yellowish-orange patches or warts, a yellowish-orange annulus, and a white to orange stem. Common and widespread throughout eastern North America, Amanita flavoconia grows on the ground in broad-leaved and mixed forests, especially in mycorrhizal association with hemlock.",
     "scientificName": "Amanita flavoconia",
     "characteristics": [],
     "imageUrl": "https://healing-mushrooms.net/wp-content/uploads/2020/09/Amanita-flavoconia-scaled.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Angel's Wings",
+    "regions": ["Northeast", "Pacific"],
+    "description": "Pleurocybella porrigens is a species of fungus in the Marasmiaceae family. The species is widespread in temperate forests of the Northern Hemisphere. P. porrigens, known as the angel wing, is a white-rot wood-decay fungus on conifer wood, particularly hemlock (genus Tsuga). The flesh is thin and fragile compared to the oyster mushroom.",
+    "scientificName": "Pleurocybella porrigens",
+    "characteristics": [],
+    "imageUrl": "https://live.staticflickr.com/8035/8074272350_a7f61eda17_b.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Chaga",
+    "regions": ["Northeast"],
+    "description": "Inonotus obliquus, commonly called chaga, is a fungus in the family Hymenochaetaceae. It is parasitic on birch and other trees. The sterile conk is irregularly formed and resembles burnt charcoal. It is not the fruiting body of the fungus, but a sclerotium or mass of mycelium, mostly black because of a great amount of melanin.[2] Some people consider chaga medicinal. Inonotus obliquus is found most commonly in the Circumboreal Region of the Northern Hemisphere, where it is distributed in birch forests.",
+    "scientificName": "Inonotus obliquus",
+    "characteristics": [],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chaga_Mushroom_-_Inonotus_obliquus_%2840358524662%29.jpg/1280px-Chaga_Mushroom_-_Inonotus_obliquus_%2840358524662%29.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Apricot's Jelly",
+    "regions": ["Northeast", "Pacific"],
+    "description": "Guepinia is a genus of fungus in the Auriculariales order. It is a monotypic genus, containing the single species Guepinia helvelloides, commonly known as the apricot jelly. The fungus produces salmon-pink, ear-shaped, gelatinous fruit bodies that grow solitarily or in small tufted groups on soil, usually associated with buried rotting wood.",
+    "scientificName": "Guepinia helvelloides",
+    "characteristics": [],
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2481682/original.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Scarlet Cup",
+    "regions": ["Pacific"],
+    "description": "Sarcoscypha coccinea, commonly known as the scarlet elf cup, scarlet elf cap, or the scarlet cup, is a species of fungus in the family Sarcoscyphaceae of the order Pezizales. The fungus, widely distributed in the Northern Hemisphere, has been found in Africa, Asia, Europe, North and South America, and Australia. The saprobic fungus grows on decaying sticks and branches in damp spots on forest floors, generally buried under leaf litter or in the soil. The cup-shaped fruit bodies are usually produced during the cooler months of winter and early spring.",
+    "scientificName": "Sarcoscypha coccinea",
+    "characteristics": [],
+    "imageUrl": "http://www.fungalpunknature.co.uk/Fungi/Sarcoscypha%20austriaca.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Old Man of the Woods",
+    "regions": ["Midwest", "Northeast"],
+    "description": "Strobilomyces strobilaceus, also called Strobilomyces floccopus and commonly known as old man of the woods, is a species of fungus in the family Boletaceae. It is native to Europe and North America. Fruit bodies are characterized by very soft dark grey to black pyramidal and overlapping scales on the cap surface.",
+    "scientificName": "Strobilomyces floccopus",
+    "characteristics": [],
+    "imageUrl": "https://wpamushroomclub.org/wp-content/uploads/2014/09/Strobilomyces-floccopus.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Golden Reishi",
+    "regions": ["Midwest", "Southeast", "Northeast"],
+    "description": "Ganoderma curtisii is a wood-decaying polypore whose distribution is primarily in the Southeastern United States. Distinguishing features include its gorgeous, lacquered cap and its pale brown flesh, which features melanoid bands but not concentric growth zones. It usually features a fairly well-developed lateral stem.",
+    "scientificName": "Ganoderma curtisii",
+    "characteristics": [],
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/13617121/original.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Witch's Butter",
+    "regions": ["Midwest", "Southeast", "Northeast"],
+    "description": "Tremella mesenterica (whose common names include yellow brain, golden jelly fungus, yellow trembler, and witch's butter) is a common jelly fungus in the family Tremellaceae of the Agaricomycotina. The gelatinous, orange-yellow fruit body of the fungus has a convoluted or lobed surface that is greasy or slimy when damp. It grows in crevices in bark, appearing during rainy weather. Within a few days after rain it dries into a thin film or shriveled mass capable of reviving after subsequent rain. This fungus occurs widely in deciduous and mixed forests and is widely distributed in temperate and tropical regions that include Africa, Asia, Australia, Europe, North and South America.",
+    "scientificName": "Tremella mesenterica",
+    "characteristics": [],
+    "imageUrl": "https://bloximages.newyork1.vip.townnews.com/lakemagazine.life/content/tncms/assets/v3/editorial/4/11/411e5428-4ceb-11ea-b0da-7b876a008525/5e42d71d00453.cover.jpg?crop=1586%2C1065%2C260%2C9&resize=1586%2C1065&order=crop%2Cresize"
+  },
+  {
+    "id": 25,
+    "name": "Hawk's Wing",
+    "regions": ["Rocky Mountains", "Northeast"],
+    "description": "Sarcodon imbricatus, commonly known as the shingled hedgehog, scaly hedgehog, or hawk's wing, is a species of tooth fungus in the order Thelephorales. The mushroom has a large, brownish cap with large brown scales and may reach 30 cm in diameter. On the underside it sports greyish, brittle teeth instead of gills, and has white flesh. Its spore print is brown. It is associated with spruce (Picea), appearing in autumn.",
+    "scientificName": "Sarcodon imbricatus",
+    "characteristics": [],
+    "imageUrl": "https://www.modern-forager.com/wp-content/uploads/2018/07/hawgswing1000.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Delicious Milky Cap",
+    "regions": ["Rocky Mountains", "Pacific"],
+    "description": "Lactarius deliciosus, commonly known as the saffron milk cap and red pine mushroom, is one of the best known members of the large milk-cap genus Lactarius in the order Russulales. It is found in Europe and has been accidentally introduced to other countries under conifers and can be found growing in pine plantations. A fresco in the Roman town of Herculaneum appears to depict Lactarius deliciosus and is one of the earliest pieces of art to illustrate a fungus.",
+    "scientificName": "Lactarius deliciosus",
+    "characteristics": [],
+    "imageUrl": "https://www.first-nature.com/fungi/images/russulaceae/lactarius-deliciosus6.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Fly Amanita",
+    "regions": ["Rocky Mountains", "Pacific", "Northeast"],
+    "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. It is also a muscimol mushroom. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. Arguably the most iconic toadstool species, the fly agaric is a large white- gilled, white - spotted, usually red mushroom, and is one of the most recognizable and widely encountered in popular culture.",
+    "scientificName": "Amanita Muscaria",
+    "characteristics": [],
+    "imageUrl": "https://static.inaturalist.org/photos/26555709/large.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Orange Peel Fungus",
+    "regions": ["Rocky Mountains", "Pacific", "Northeast"],
+    "description": "Aleuria aurantia (orange peel fungus) is a widespread ascomycete fungus in the order Pezizales. The brilliant orange, cup-shaped ascocarps often resemble orange peels strewn on the ground,[1] giving this species its common name.",
+    "scientificName": "Aleuria aurantia",
+    "characteristics": [],
+    "imageUrl": "https://www.uncovercolorado.com/wp-content/uploads/2020/04/Aleuria-Aurantia-Colorado.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Pleated Inkcap",
+    "regions": ["Rocky Mountains", "Pacific", "Midwest", "Southeast", "Northeast"],
+    "description": "Parasola plicatilis is a small saprotrophic mushroom with a plicate cap (diameter up to 35 mm). It is a widely distributed species in Europe and North America. This ink cap species is a decomposer which can be found in grassy areas, alone, scattered or in small groups. The fruiting bodies grow at night after rain, and will self decompose after spore dispersion is achieved. Otherwise, they are quickly dried up in morning sunlight, or will eventually collapse beneath the weight of their caps.",
+    "scientificName": "Parasola plicatilis",
+    "characteristics": [],
+    "imageUrl": "https://www.uncovercolorado.com/wp-content/uploads/2020/04/Parasola-Plicatilis-Colorado.jpg"
   },
 ];
 
