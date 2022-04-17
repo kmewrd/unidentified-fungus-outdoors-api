@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3001);
 app.locals.title = 'UFO - Unidentified Fungus Outdoors';
 app.locals.fungi = fungi;
 
-app.get('/', (request, response) => {
+app.get('/fungi', (request, response) => {
   response.json(app.locals.fungi);
 });
 
