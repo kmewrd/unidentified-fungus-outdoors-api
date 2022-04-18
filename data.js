@@ -266,7 +266,7 @@ const fungi = [
     "regions": ["Midwest", "Southeast", "Northeast"],
     "description": "Omphalotus illudens, commonly known as the eastern jack-o'lantern mushroom, is a large, orange mushroom that is often found in clumps on decaying stumps, buried roots, or at the base of hardwood trees in eastern North America. Its gills often exhibit a weak green bioluminescence when fresh. This green glow has been mentioned in several journal articles, which state that the phenomenon can persist for several hours after the mushroom has been picked. It is believed that this display serves to attract insects to the mushroom's gills during nighttime, which can then distribute its spores across a wider area.",
     "scientificName": "Omphalotus illudens",
-    "characteristics": ["orange", "yellow-orange", "smooth", "cluster", "gills"],
+    "characteristics": ["orange", "yellow-orange", "smooth", "cluster", "gills", "bioluminescent"],
     "imageUrl": "https://blogs.illinois.edu/files/7362/566620/120540.jpg"
   },
   {
@@ -314,6 +314,60 @@ const fungi = [
     "characteristics": ["scales", "yellow", "golden", "gills"],
     "imageUrl": "https://petehillmansnaturephotography.files.wordpress.com/2016/10/golden-scalycap-pholiota-aurivella.jpg"
   },
+  {
+    "id": 35,
+    "name": "Luminescent Panellus",
+    "regions": ["Pacific", "Southeast", "Northeast", "Midwest"],
+    "description": "Panellus stipticus, commonly known as the bitter oyster, the astringent panus, the luminescent panellus, or the stiptic fungus, is a species of fungus in the family Mycenaceae, and the type species of the genus Panellus. A common and widely distributed species, it is found in Asia, Australia, Europe, and North America, where it grows in groups or dense overlapping clusters on the logs, stumps, and trunks of deciduous trees, especially beech, oak, and birch. Panellus stipticus is one of several dozen species of fungi that are bioluminescent.",
+    "scientificName": "Panellus stipticus",
+    "characteristics": ["bioluminescent", "ridges", "fan", "tan", "beige", "gills", "wavy"],
+    "imageUrl": "https://pbs.twimg.com/media/FJEpZNpXEAEnAbg?format=jpg&name=large"
+  },
+  {
+    "id": 36,
+    "name": "The Sickener",
+    "regions": ["Pacific", "Rocky Mountains", "Northeast", "Southeast"],
+    "description": "Russula emetica, commonly known as the sickener, emetic russula, or vomiting russula, is a basidiomycete mushroom, and the type species of the genus Russula. It has a red, convex to flat cap with a cuticle that can be peeled off almost to the centre. The gills are white to pale cream, and closely spaced. First described in 1774, the mushroom has a wide distribution in the Northern Hemisphere, where it grows on the ground in damp woodlands in a mycorrhizal association with conifers, especially pine. The mushroom's common names refer to the gastrointestinal distress they cause when consumed raw. The flesh is extremely peppery, but this offensive taste, along with its toxicity, can be removed by parboiling or pickling. Although it used to be widely eaten in Russia and eastern European countries, it is generally not recommended for consumption.",
+    "scientificName": "Russula emetica",
+    "characteristics": ["red", "reddish", "smooth", "gills"],
+    "imageUrl": "https://ultimate-mushroom.com/uploads/posts/2020-10/1602951340_russula-emetica-3.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Black Morel",
+    "regions": ["Pacific", "Rocky Mountains", "Northeast", "Midwest", "Southwest"],
+    "description": "Morchella angusticeps is a species of fungus in the family Morchellaceae native to eastern North America. In Colorado, they're found above elevations of 7,000 feet, and favor burn areas, aspen groves, and the ground beneath conifer trees. With a color and shape that can be difficult to distinguish from pinecones, the elusive and highly coveted black morel is known to appear between May and July, in association with various hardwoods in the spring.",
+    "scientificName": "Morchella angusticeps",
+    "characteristics": ["black", "ridges", "pitted", "brown", "dark brown"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Morchella_angusticeps_Peck_742492_crop.jpg/2560px-Morchella_angusticeps_Peck_742492_crop.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Bleeding Fairy Helmet",
+    "regions": ["Pacific", "Rocky Mountains", "Northeast", "Midwest", "Southwest"],
+    "description": "Mycena haematopus, commonly known as the bleeding fairy helmet, the burgundydrop bonnet, or the bleeding Mycena, is a species of fungus in the family Mycenaceae, of the order Agaricales. It is widespread and common in Europe and North America, and has also been collected in Japan and Venezuela. It is saprotrophic — meaning that it obtains nutrients by consuming decomposing organic matter — and the fruit bodies appear in small groups or clusters on the decaying logs, trunks, and stumps of deciduous trees, particularly beech. The fungus, first described scientifically in 1799, is classified in the section Lactipedes of the genus Mycena, along with other species that produce a milky or colored latex.",
+    "scientificName": "Mycena haematopus",
+    "characteristics": ["ridges", "scalloped", "reddish", "purplish", "gills"],
+    "imageUrl": "https://images.mushroomobserver.org/1280/1305351.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Honey Mushroom",
+    "regions": ["Southwest", "Rocky Mountains", "Pacific", "Midwest", "Northeast", "Southeast"],
+    "description": "Armillaria ostoyae is a species of fungus, pathogenic to trees, in the family Physalacriaceae. In the western United States, it is the most common variant of the group of species under the name Armillaria mellea. A. ostoyae is common on both hardwood and conifer wood in forests west of the Cascade Range in Oregon, United States. It has decurrent gills and the stipe has a ring. The mycelium invades the sapwood and is able to disseminate over great distances under the bark or between trees in the form of black rhizomorphs. In most areas of North America, Armillaria ostoyae can be separated from other species by its physical features: cream-brown colors, prominent cap scales, and a well-developed stem ring distinguish it from other Armillaria. Armillaria ostoyae grows and spreads primarily underground, such that the bulk of the organism is not visible from the surface.",
+    "scientificName": "Armillaria ostoyae",
+    "characteristics": ["beige", "brown", "tan", "scales", "gills"],
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4694601/large.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Lobster Mushroom",
+    "regions": ["Southwest", "Rocky Mountains", "Pacific", "Midwest", "Northeast", "Southeast"],
+    "description": "Hypomyces lactifluorum, the lobster mushroom, contrary to its common name, is not a mushroom, but rather a parasitic ascomycete fungus that grows on certain species of mushrooms, turning them a reddish orange color that resembles the outer shell of a cooked lobster. H. lactifluorum specifically attacks members of the genera Lactarius and Lactifluus (milk-caps), and Russula (brittlegills), such as Russula brevipes and Lactifluus piperatus in North America. At maturity, H. lactifluorum thoroughly covers its host, rendering it unidentifiable.",
+    "scientificName": "Hypomyces lactifluorum",
+    "characteristics": ["orange", "orange-red", "red", "reddish"],
+    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4694601/large.jpg"
+  }
 ];
 
 module.exports = fungi;
