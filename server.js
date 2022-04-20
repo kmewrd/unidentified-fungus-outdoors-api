@@ -47,6 +47,17 @@ app.post('/api/v1/sightings', (request, response) => {
   }
 });
 
+app.delete('/api/v1/sightings/:id', (request, response) => {
+  const found = app.locals.sightings.find(sighting => sighting.id.toString() === request.params.id);
+
+  if (!found) {
+    response.json({ message: `Unable to delete item with id ${request.params.id}.` });
+  } else {
+    app.locals.sightings = app.locals.sightings.filter(sighting => sighting.id.toString() !== request.params.id);
+    response.json({ message: `Deleted item with id ${request.params.id}.` });
+  }
+});
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 });
