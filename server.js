@@ -1,12 +1,18 @@
 const express = require('express');
 const app = express();
-const fungi = require('./data.js');
+const fungi = require('./fungi-data.js');
+const users = require('./user-data.js');
 
 app.use(express.json());
 
 app.set('port', process.env.PORT || 3001);
 app.locals.title = 'U.F.O. - Unidentified Fungus Outdoors';
 app.locals.fungi = fungi;
+app.locals.users = users;
+
+app.get('/api/v1/users', (request, response) => {
+  response.json(app.locals.users);
+});
 
 app.get('/api/v1/fungi', (request, response) => {
   response.json(app.locals.fungi);
