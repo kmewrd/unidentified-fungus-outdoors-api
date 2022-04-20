@@ -14,6 +14,12 @@ app.get('/api/v1/users', (request, response) => {
   response.json(app.locals.users);
 });
 
+app.get('/api/v1/users/:id', (request, response) => {
+  const user = app.locals.users.find(user => user.id === request.params.id);
+
+  response.json(user);
+})
+
 app.get('/api/v1/fungi', (request, response) => {
   response.json(app.locals.fungi);
 });
