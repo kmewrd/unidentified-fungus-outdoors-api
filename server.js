@@ -15,7 +15,7 @@ app.get('/api/v1/users', (request, response) => {
 });
 
 app.get('/api/v1/users/:id', (request, response) => {
-  const user = app.locals.users.find(user => user.id === request.params.id);
+  const user = app.locals.users.find(user => user.id.toString() === request.params.id);
 
   response.json(user);
 })
