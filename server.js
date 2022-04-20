@@ -43,7 +43,7 @@ app.post('/api/v1/sightings', (request, response) => {
     app.locals.sightings.push(request.body);
     response.send(request.body);
   } else {
-    response.sendStatus(422);
+    response.status(422).json({ status: 422, message: 'Please fill out all fields.' });
   }
 });
 
