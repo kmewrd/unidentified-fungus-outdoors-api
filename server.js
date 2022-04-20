@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const fungi = require('./fungi-data.js');
-const users = require('./user-data.js');
+const fungi = require('./fungi.js');
+const users = require('./users.js');
+const sightings = require('./sightings.js');
 
 app.use(cors());
 app.use(express.json());
@@ -11,6 +12,7 @@ app.set('port', process.env.PORT || 3001);
 app.locals.title = 'U.F.O. - Unidentified Fungus Outdoors';
 app.locals.fungi = fungi;
 app.locals.users = users;
+app.locals.sightings = sightings;
 
 app.get('/api/v1/users', (request, response) => {
   response.json(app.locals.users);
@@ -20,6 +22,10 @@ app.get('/api/v1/users/:id', (request, response) => {
   const user = app.locals.users.find(user => user.id.toString() === request.params.id);
 
   response.json(user);
+});
+
+app.get('/api/v1/sightings', (request, response) => {
+  response.json(app.locals.sightings);
 })
 
 app.get('/api/v1/fungi', (request, response) => {
