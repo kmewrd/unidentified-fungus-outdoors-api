@@ -39,8 +39,9 @@ app.get('/api/v1/fungi/:region', (request, response) => {
 });
 
 app.post('/api/v1/sightings', (request, response) => {
-  if (request.body.id && request.body.date && request.body.location && request.body.notes) {
-    response.json(request.body);
+  if (request.body.id && request.body.date && request.body.location && request.body.notes && request.body.fungusId && request.body.userId) {
+    app.locals.sightings.push(request.body);
+    response.send(request.body);
   } else {
     response.sendStatus(422);
   }
