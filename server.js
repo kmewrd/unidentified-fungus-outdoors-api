@@ -3,6 +3,7 @@ const app = express();
 const fungi = require('./fungi-data.js');
 const users = require('./user-data.js');
 
+app.use(cors());
 app.use(express.json());
 
 app.set('port', process.env.PORT || 3001);
