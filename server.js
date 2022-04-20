@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const fungi = require('./fungi-data.js');
 const users = require('./user-data.js');
 
