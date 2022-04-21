@@ -234,7 +234,7 @@ const fungi = [
     "imageUrl": "https://www.first-nature.com/fungi/images/russulaceae/lactarius-deliciosus6.jpg"
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Fly Amanita",
     "regions": ["rocky-mountains", "pacific", "northeast"],
     "description": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. It is also a muscimol mushroom. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. Arguably the most iconic toadstool species, the fly agaric is a large white- gilled, white - spotted, usually red mushroom, and is one of the most recognizable and widely encountered in popular culture.",
@@ -243,7 +243,7 @@ const fungi = [
     "imageUrl": "https://static.inaturalist.org/photos/26555709/large.jpg"
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Orange Peel Fungus",
     "regions": ["rocky-mountains", "pacific", "northeast"],
     "description": "Aleuria aurantia (orange peel fungus) is a widespread ascomycete fungus in the order Pezizales. The brilliant orange, cup-shaped ascocarps often resemble orange peels strewn on the ground,[1] giving this species its common name.",
@@ -252,7 +252,7 @@ const fungi = [
     "imageUrl": "https://www.uncovercolorado.com/wp-content/uploads/2020/04/Aleuria-Aurantia-Colorado.jpg"
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Pleated Inkcap",
     "regions": ["rocky-mountains", "pacific", "midwest", "southeast", "northeast"],
     "description": "Parasola plicatilis is a small saprotrophic mushroom with a plicate cap (diameter up to 35 mm). It is a widely distributed species in Europe and North America. This ink cap species is a decomposer which can be found in grassy areas, alone, scattered or in small groups. The fruiting bodies grow at night after rain, and will self decompose after spore dispersion is achieved. Otherwise, they are quickly dried up in morning sunlight, or will eventually collapse beneath the weight of their caps.",
@@ -261,7 +261,7 @@ const fungi = [
     "imageUrl": "https://www.uncovercolorado.com/wp-content/uploads/2020/04/Parasola-Plicatilis-Colorado.jpg"
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Eastern American Jack-O'-Lantern",
     "regions": ["midwest", "southeast", "northeast"],
     "description": "Omphalotus illudens, commonly known as the eastern jack-o'lantern mushroom, is a large, orange mushroom that is often found in clumps on decaying stumps, buried roots, or at the base of hardwood trees in eastern North America. Its gills often exhibit a weak green bioluminescence when fresh. This green glow has been mentioned in several journal articles, which state that the phenomenon can persist for several hours after the mushroom has been picked. It is believed that this display serves to attract insects to the mushroom's gills during nighttime, which can then distribute its spores across a wider area.",
@@ -270,7 +270,7 @@ const fungi = [
     "imageUrl": "https://blogs.illinois.edu/files/7362/566620/120540.jpg"
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Dead Man's Fingers",
     "regions": ["midwest", "southeast", "northeast"],
     "description": "Xylaria polymorpha, commonly known as dead man's fingers, is a saprobic fungus. It is a common inhabitant of forest and woodland areas, usually growing from the bases of rotting or injured tree stumps and decaying wood. It has also been known to colonize substrates like woody legume pods, petioles, and herbaceous stems. It is characterized by its elongated upright, clavate, or strap-like stromata poking up through the ground, much like fingers. Polymorpha means 'many forms'. As its name suggests, it has a very variable but often club-shaped fruiting body (stroma) resembling burned wood. Often this fungus is found with a multitude of separate 'digits' but at times the individual parts will be fused together.",
@@ -279,7 +279,7 @@ const fungi = [
     "imageUrl": "https://ultimate-mushroom.com/uploads/posts/2020-11/1605894303_xylaria-polymorpha-1.jpg"
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Kaibab Slippery Jack",
     "regions": ["southwest", "rocky-mountains"],
     "description": "Suillus kaibabensis is a species of fungus in the family Boletaceae. It is a hardy yellow member of the genus Suillus. While yellow is the primary color, it can also include brown and white tones in varying degrees as well. This mushroom has a stem around 2-4 cm long, and 1-2 cm thick. The cap is broad and convex to flat, typical of many species of boletes. The stipe is bare, spotted with olive brown and can be reddish-brown at the base. The pores are yellowish-brown that can turn a salmon color with age. Suillus kaibabensis grows in the four corners region of Arizona, New Mexico, Utah, and Colorado. This species exclusively prefers Ponderosa pine. It is mycorrhizal, and requires these trees to survive. It produces fruiting bodies during the wetter season of late July to September.",
@@ -288,7 +288,7 @@ const fungi = [
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Suillus_kaibabensis_Thiers_641095.jpg"
   },
   {
-    "id": 32,
+    "id": 33,
     "name": "Hygroscopic Earthstar",
     "regions": ["southwest", "rocky-mountains", "pacific", "southeast", "northeast", "midwest"],
     "description": "Astraeus hygrometricus, commonly known as the hygroscopic earthstar, the barometer earthstar, or the false earthstar, is a species of fungus in the family Diplocystaceae. Young specimens resemble a puffball when unopened. In maturity, the mushroom displays the characteristic earthstar shape that is a result of the outer layer of fruit body tissue splitting open in a star-like manner. The false earthstar is an ectomycorrhizal species that grows in association with various trees, especially in sandy soils. Its common names refer to the fact that it is hygroscopic (water-absorbing), and can open up its rays to expose the spore sac in response to increased humidity, and close them up again in drier conditions. The rays have an irregularly cracked surface, while the spore case is pale brown and smooth with an irregular slit or tear at the top. The gleba is white initially, but turns brown and powdery when the spores mature.",
@@ -297,7 +297,7 @@ const fungi = [
     "imageUrl": "https://ultimate-mushroom.com/uploads/posts/2020-12/1608500917_astraeus-hygrometricus-3.jpg"
   },
   {
-    "id": 33,
+    "id": 34,
     "name": "Cinnabar Red Polypore",
     "regions": ["southwest", "rocky-mountains", "pacific", "southeast", "northeast", "midwest"],
     "description": "Pycnoporus cinnabarinus, also known as the cinnabar polypore, is a saprophytic, white-rot decomposer. Its fruit body is a bright orange shelf fungus. It is common in many areas and is widely distributed throughout the world. It is inedible and it produces cinnabarinic acid to protect itself from bacteria.",
@@ -306,7 +306,7 @@ const fungi = [
     "imageUrl": "https://ultimate-mushroom.com/uploads/posts/2020-11/1605893606_pycnoporus-cinnabarinus-4.jpg"
   },
   {
-    "id": 34,
+    "id": 35,
     "name": "Golden Scalycap Mushroom",
     "regions": ["southwest", "rocky-mountains", "pacific", "southeast", "northeast", "midwest"],
     "description": "Pholiota aurivella is a species of fungus in the family Strophariaceae that is found in native forest of New Zealand, southern Canada, and in the United States. It is frequently found in the American West and Southwest, especially in late summer and fall. It is sticky or slimy when moist and grows in clusters on live or dead trees. The cap colour is bright to golden yellow, viscid when young with relatively dark scales. The stem is pale, and scaly closer to the bottom.",
@@ -315,7 +315,7 @@ const fungi = [
     "imageUrl": "https://petehillmansnaturephotography.files.wordpress.com/2016/10/golden-scalycap-pholiota-aurivella.jpg"
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Luminescent Panellus",
     "regions": ["pacific", "southeast", "northeast", "midwest"],
     "description": "Panellus stipticus, commonly known as the bitter oyster, the astringent panus, the luminescent panellus, or the stiptic fungus, is a species of fungus in the family Mycenaceae, and the type species of the genus Panellus. A common and widely distributed species, it is found in Asia, Australia, Europe, and North America, where it grows in groups or dense overlapping clusters on the logs, stumps, and trunks of deciduous trees, especially beech, oak, and birch. Panellus stipticus is one of several dozen species of fungi that are bioluminescent.",
@@ -324,7 +324,7 @@ const fungi = [
     "imageUrl": "https://pbs.twimg.com/media/FJEpZNpXEAEnAbg?format=jpg&name=large"
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "The Sickener",
     "regions": ["pacific", "rocky-mountains", "northeast", "southeast"],
     "description": "Russula emetica, commonly known as the sickener, emetic russula, or vomiting russula, is a basidiomycete mushroom, and the type species of the genus Russula. It has a red, convex to flat cap with a cuticle that can be peeled off almost to the centre. The gills are white to pale cream, and closely spaced. First described in 1774, the mushroom has a wide distribution in the Northern Hemisphere, where it grows on the ground in damp woodlands in a mycorrhizal association with conifers, especially pine. The mushroom's common names refer to the gastrointestinal distress they cause when consumed raw. The flesh is extremely peppery, but this offensive taste, along with its toxicity, can be removed by parboiling or pickling. Although it used to be widely eaten in Russia and eastern European countries, it is generally not recommended for consumption.",
@@ -333,7 +333,7 @@ const fungi = [
     "imageUrl": "https://ultimate-mushroom.com/uploads/posts/2020-10/1602951340_russula-emetica-3.jpg"
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Black Morel",
     "regions": ["pacific", "rocky-mountains", "northeast", "midwest", "southwest"],
     "description": "Morchella angusticeps is a species of fungus in the family Morchellaceae native to eastern North America. In Colorado, they're found above elevations of 7,000 feet, and favor burn areas, aspen groves, and the ground beneath conifer trees. With a color and shape that can be difficult to distinguish from pinecones, the elusive and highly coveted black morel is known to appear between May and July, in association with various hardwoods in the spring.",
@@ -342,7 +342,7 @@ const fungi = [
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Morchella_angusticeps_Peck_742492_crop.jpg/2560px-Morchella_angusticeps_Peck_742492_crop.jpg"
   },
   {
-    "id": 38,
+    "id": 39,
     "name": "Bleeding Fairy Helmet",
     "regions": ["pacific", "rocky-mountains", "northeast", "midwest", "southwest"],
     "description": "Mycena haematopus, commonly known as the bleeding fairy helmet, the burgundydrop bonnet, or the bleeding Mycena, is a species of fungus in the family Mycenaceae, of the order Agaricales. It is widespread and common in Europe and North America, and has also been collected in Japan and Venezuela. It is saprotrophic — meaning that it obtains nutrients by consuming decomposing organic matter — and the fruit bodies appear in small groups or clusters on the decaying logs, trunks, and stumps of deciduous trees, particularly beech. The fungus, first described scientifically in 1799, is classified in the section Lactipedes of the genus Mycena, along with other species that produce a milky or colored latex.",
@@ -351,7 +351,7 @@ const fungi = [
     "imageUrl": "https://images.mushroomobserver.org/1280/1305351.jpg"
   },
   {
-    "id": 39,
+    "id": 40,
     "name": "Honey Mushroom",
     "regions": ["southwest", "rocky-mountains", "pacific", "midwest", "northeast", "southeast"],
     "description": "Armillaria ostoyae is a species of fungus, pathogenic to trees, in the family Physalacriaceae. In the western United States, it is the most common variant of the group of species under the name Armillaria mellea. A. ostoyae is common on both hardwood and conifer wood in forests west of the Cascade Range in Oregon, United States. It has decurrent gills and the stipe has a ring. The mycelium invades the sapwood and is able to disseminate over great distances under the bark or between trees in the form of black rhizomorphs. In most areas of North America, Armillaria ostoyae can be separated from other species by its physical features: cream-brown colors, prominent cap scales, and a well-developed stem ring distinguish it from other Armillaria. Armillaria ostoyae grows and spreads primarily underground, such that the bulk of the organism is not visible from the surface.",
@@ -360,7 +360,7 @@ const fungi = [
     "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4694601/large.jpg"
   },
   {
-    "id": 40,
+    "id": 41,
     "name": "Lobster Mushroom",
     "regions": ["southwest", "rocky-mountains", "pacific", "midwest", "northeast", "southeast"],
     "description": "Hypomyces lactifluorum, the lobster mushroom, contrary to its common name, is not a mushroom, but rather a parasitic ascomycete fungus that grows on certain species of mushrooms, turning them a reddish orange color that resembles the outer shell of a cooked lobster. H. lactifluorum specifically attacks members of the genera Lactarius and Lactifluus (milk-caps), and Russula (brittlegills), such as Russula brevipes and Lactifluus piperatus in North America. At maturity, H. lactifluorum thoroughly covers its host, rendering it unidentifiable.",
