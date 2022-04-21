@@ -38,6 +38,12 @@ app.get('/api/v1/fungi/:region', (request, response) => {
   response.json(regionalFungi);
 });
 
+app.get('/api/v1/fungus/:id', (request, response) => {
+  const fungus = app.locals.fungi.find(fungus => fungus.id.toString() === request.params.region);
+
+  response.json(fungus);
+});
+
 app.post('/api/v1/sightings', (request, response) => {
   if (request.body.id && request.body.date && request.body.location && request.body.notes && request.body.fungusId && request.body.userId) {
     app.locals.sightings.push(request.body);
