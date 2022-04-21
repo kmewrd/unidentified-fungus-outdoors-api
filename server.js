@@ -39,7 +39,7 @@ app.get('/api/v1/fungi/:region', (request, response) => {
 });
 
 app.get('/api/v1/fungus/:id', (request, response) => {
-  const fungus = app.locals.fungi.find(fungus => fungus.id.toString() === request.params.region);
+  const fungus = app.locals.fungi.find(fungus => fungus.id.toString() === request.params.id);
 
   response.json(fungus);
 });
