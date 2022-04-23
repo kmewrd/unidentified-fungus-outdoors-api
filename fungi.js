@@ -60,7 +60,7 @@ const fungi = [
     "description": "Calbovista is a fungal genus containing the single species Calbovista subsculpta, commonly known as the sculptured puffball, sculptured giant puffball, and warted giant puffball. It is a common puffball of the Rocky Mountains and Pacific Coast ranges of western North America. The puffball is more or less round with a diameter of up to 15 cm (6 in), white becoming brownish in age, and covered with shallow pyramid-shaped plates or scales. It fruits singly or in groups along roads and in open woods at high elevations, from summer to autumn.",
     "scientificName": "Calbovista subsculpta",
     "characteristics": ["white", "round", "bumpy", "warts"],
-    "imageUrl": null
+    "imageUrl": 'https://www.mykoweb.com/CAF/photos/large/Calbovista_subsculpta%28fs-04%29.jpg'
   },
   {
     "id": 8,
@@ -366,7 +366,7 @@ const fungi = [
     "description": "Hypomyces lactifluorum, the lobster mushroom, contrary to its common name, is not a mushroom, but rather a parasitic ascomycete fungus that grows on certain species of mushrooms, turning them a reddish orange color that resembles the outer shell of a cooked lobster. H. lactifluorum specifically attacks members of the genera Lactarius and Lactifluus (milk-caps), and Russula (brittlegills), such as Russula brevipes and Lactifluus piperatus in North America. At maturity, H. lactifluorum thoroughly covers its host, rendering it unidentifiable.",
     "scientificName": "Hypomyces lactifluorum",
     "characteristics": ["orange", "orange-red", "red", "reddish"],
-    "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4694601/large.jpg"
+    "imageUrl": "https://biology.burke.washington.edu/herbarium/imagecollection/wtu100000/md/wtu100832.jpg"
   }
 ];
 
